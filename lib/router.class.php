@@ -68,7 +68,7 @@ class Router
 
     public function __construct($uri)
     {
-        $this->uri = urldecode(trim($uri, '/'));
+        $this->uri = trim($uri, '/');
 
         // Get defaults
         $routes = Config::get('routes');

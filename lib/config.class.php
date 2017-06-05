@@ -2,7 +2,7 @@
 
 class Config
 {
-    protected static $settings = array();
+    protected static $settings = [];
 
     public static function get($key)
     {
